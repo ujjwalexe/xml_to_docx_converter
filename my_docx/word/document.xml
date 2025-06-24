@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:body>
+
+    <w:p>
+      <w:r><w:t>Hello Sir, here's a paragraph followed by a table.</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:r><w:t>This document includes a sample table with item details.</w:t></w:r>
+    </w:p>
+    <w:p>
+      <w:r><w:t>The layout is simple, and the structure uses Word XML format.</w:t></w:r>
+    </w:p>
+
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="5000" w:type="pct"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="4" w:color="000000"/>
+          <w:left w:val="single" w:sz="4" w:color="000000"/>
+          <w:bottom w:val="single" w:sz="4" w:color="000000"/>
+          <w:right w:val="single" w:sz="4" w:color="000000"/>
+          <w:insideH w:val="single" w:sz="4" w:color="000000"/>
+          <w:insideV w:val="single" w:sz="4" w:color="000000"/>
+        </w:tblBorders>
+      </w:tblPr>
+
+      <w:tr>
+        <w:tc><w:p><w:r><w:t>Item</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t>Quantity</w:t></w:r></w:p></w:tc>
+      </w:tr>
+      <w:tr>
+        <w:tc><w:p><w:r><w:t>Apples</w:t></w:r></w:p></w:tc>
+        <w:tc><w:p><w:r><w:t>5</w:t></w:r></w:p></w:tc>
+      </w:tr>
+    </w:tbl>
+
+    <w:p>
+      <w:r><w:t>This is the end of your document. </w:t></w:r>
+    </w:p>
+
+    <w:sectPr>
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440"/>
+    </w:sectPr>
+
+  </w:body>
+</w:document>
